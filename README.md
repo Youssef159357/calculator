@@ -1,6 +1,5 @@
 # calculator
 import math
-
 class Calculator:
     def __init__(self):
         self.total = 0.0
@@ -30,9 +29,6 @@ class Calculator:
 
     def get_result(self):
         return int(self.total) if self.total.is_integer() else self.total
-
-
-
 my_calc = Calculator()
 
 first_num = input("Enter the first number: ")
